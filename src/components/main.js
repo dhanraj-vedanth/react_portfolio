@@ -8,6 +8,7 @@ import Resume from './resume'
 
 const Main = () => (
     <Switch>
+        <Route exact path="/react_portfolio/" component{LandingPage}/>
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutme" component={About} />
         <Route path="/contact" component={Contact} />
