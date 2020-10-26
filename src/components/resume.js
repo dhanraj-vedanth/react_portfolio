@@ -4,9 +4,14 @@ import avatar from './avatar1.png';
 import Education from './education';
 import Experience from './experience';
 // import Skill from './skills';
+// import CloudIcon from '@material-ui/icons/Cloud';
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Resume extends Component{
+    facebook = [
+        "Reduced time taken to handle a network break-fix event by over 1 hr/ticket by automating 80% of the network event steps using a workflow",
+        "Developed 3 core modules for an asynchronous service to spin workflows resulting in a loosely coupled service with 30% reduced DB hits"
+    ]
     render(){
         return(
             <div>
@@ -20,7 +25,7 @@ class Resume extends Component{
                             />
                         </div>
 
-                        <h2 style={{paddingTop: '1em'}}> Dhanraj Raghunathan</h2>
+                        <h2> Dhanraj Raghunathan</h2>
                         <h4 style={{color: 'grey'}}> Network Automation guy</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5> Address </h5>
@@ -39,11 +44,6 @@ class Resume extends Component{
                         <p> Virtualization <ProgressBar now ={75} animated variant="success" /> </p>
                         <p> Ruby and Rails  <ProgressBar now={60} animated variant="success"/> </p>
 			            <p> React <ProgressBar now={30} animated variant="success"/> </p>
-                        {/* <Skill
-                        skill="PYTHON"
-                        progress= {90}
-                        />
-                        */}
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2> Education </h2>
@@ -67,6 +67,7 @@ class Resume extends Component{
                         end_year={"August 2020"}
                         company = "Facebook Inc."
                         job_title = "Network Automation Engineer Intern"
+                        jds = {this.facebook}
                         jd1 = "Reduced time taken to handle a network break-fix event by over 1 hr/ticket by automating 80% of the network event steps using a workflow"
                         jd2 = "Developed 3 core modules for an asynchronous service to spin workflows resulting in a loosely coupled service with 30% reduced DB hits"
                         />
@@ -77,9 +78,12 @@ class Resume extends Component{
                         end_year={"June 2019"}
                         company = "Tata Communications Ltd."
                         job_title = "Network Automation Engineer"
-                        jd1= "Reduced time taken to handle a network break-fix event by over 1 hr/ticket by automating 80% of the network event steps using a workflow"
-                        jd2= "Developed 3 core modules for an asynchronous service to spin workflows resulting in a loosely coupled service with 30% reduced DB hits"
+                        
+                        jd1= "Led the end-end implementation of the Looking Glass project resulting in improved polling response time of the servers using SSH, Python, and Ansible for orchestration.Optimized memory and CPU usage by 44% in the Linux cluster by virtualizing servers using KVM and ESXi."
+                        jd2= "Used Versa’s APIs with Python resulting in 40% increase in on-boarding speed. Developed two core Python modules for the Ansible stack : Parse and Compute"
                         />
+
+                        <h8><a href= "https://github.com/dhanraj-vedanth/react_portfolio/blob/master/dhanraj_raghunathan.pdf"> <strong>Check out the complete resume here </strong>  </a></h8>
                     </Cell>
                 </Grid>
             </div>
