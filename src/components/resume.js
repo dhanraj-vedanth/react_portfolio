@@ -3,7 +3,8 @@ import {Grid, Cell} from 'react-mdl';
 import avatar from './avatar1.png';
 import Education from './education';
 import Experience from './experience';
-import Skill from './skills';
+// import Skill from './skills';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Resume extends Component{
     render(){
@@ -22,14 +23,6 @@ class Resume extends Component{
                         <h2 style={{paddingTop: '1em'}}> Dhanraj Raghunathan</h2>
                         <h4 style={{color: 'grey'}}> Network Automation guy</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>
-                        Graduate Student majoring in Computer Systems Networking and Telecommunications Engineering at NC State. 
-                        Actively looking for internship & full time opportunities. 
-                        I'm passionate about Networking, Automation, Virtualization and software in general.
-                        I have hands on experience with multiple projects in industry and academia that involve building Network automation workflows, VPCs, CDNs, Web Development, Operating Systems.
-                        I have commendable interpersonal skills and have collaborated with various engineers and clients for problem solving.
-                        </p> 
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5> Address </h5>
                         <p> 2800 Brigadoon Drive, Apt 23, Raleigh, NC, 27606</p>
                         <h5> Phone </h5>
@@ -37,6 +30,20 @@ class Resume extends Component{
                         <h5> Email </h5>
                         <p> draghun@ncsu.edu </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <h5> Skills </h5>
+                        <p> Python <ProgressBar now={90} animated variant="success"/> </p>
+                        <p> Bash <ProgressBar now={60} animated variant="success"/> </p>
+                        <p> JavaScript <ProgressBar now={50} animated variant="success"/> </p>
+                        <p> Networking <ProgressBar now={80} animated variant="success"/> </p>
+                        <p> Ansible <ProgressBar now={75} animated variant="success"/> </p>
+                        <p> Virtualization <ProgressBar now ={75} animated variant="success" /> </p>
+                        <p> Ruby and Rails  <ProgressBar now={60} animated variant="success"/> </p>
+			            <p> React <ProgressBar now={30} animated variant="success"/> </p>
+                        {/* <Skill
+                        skill="PYTHON"
+                        progress= {90}
+                        />
+                        */}
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2> Education </h2>
@@ -60,42 +67,18 @@ class Resume extends Component{
                         end_year={"August 2020"}
                         company = "Facebook Inc."
                         job_title = "Network Automation Engineer Intern"
+                        jd1 = "Reduced time taken to handle a network break-fix event by over 1 hr/ticket by automating 80% of the network event steps using a workflow"
+                        jd2 = "Developed 3 core modules for an asynchronous service to spin workflows resulting in a loosely coupled service with 30% reduced DB hits"
                         />
+                        <Cell col={8}>
+                        </Cell>
                         <Experience 
                         start_year={"June 2018"}
                         end_year={"June 2019"}
                         company = "Tata Communications Ltd."
                         job_title = "Network Automation Engineer"
-                        />
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
-                        <h2> Skills </h2>
-                        <Skill
-                        skill="Python"
-                        progress= {90}
-                        />
-                        <Skill
-                        skill="Networking"
-                        progress= {80}
-                        />
-                        <Skill
-                        skill="Ansible"
-                        progress= {75}
-                        />
-                        <Skill
-                        skill="Virtualization"
-                        progress= {75}
-                        />
-                        <Skill
-                        skill="Ruby and Rails"
-                        progress= {60}
-                        />
-                        <Skill
-                        skill="Javascript"
-                        progress= {60}
-                        />
-                        <Skill
-                        skill="React"
-                        progress= {25}
+                        jd1= "Reduced time taken to handle a network break-fix event by over 1 hr/ticket by automating 80% of the network event steps using a workflow"
+                        jd2= "Developed 3 core modules for an asynchronous service to spin workflows resulting in a loosely coupled service with 30% reduced DB hits"
                         />
                     </Cell>
                 </Grid>

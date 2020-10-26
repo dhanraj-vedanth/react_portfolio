@@ -1,14 +1,13 @@
+.demo-big-content{
+    font-family: 'Oxygen', sans-serif;
+}
 .header-color{
     background: #283048;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 .landing-grid{
-    background: #283048;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oxygen', sans-serif;
     text-align: center;
     position: fixed;
     top: 0;
@@ -17,7 +16,7 @@
     height: 100%;
 }
 .avatar-img{
-    height: 250px;
+    height: 400px;
     padding-top: 5em;
 }
 .banner-txt{
@@ -27,8 +26,8 @@
     margin: auto;
     border-radius: 10px;
 }
-.banner-txt h1{
-    font-size: 66px;
+.banner-txt h2{
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -53,7 +52,7 @@
 
 .social-links i {
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     padding: 8px;
 }
 
@@ -109,4 +108,28 @@
     padding: 2em;
     background: #27221f;
     color: white;
+}
+
+/* About me Page */
+.about-me-div{
+    width: '100%';
+    margin: 'auto';
+}
+
+.about-me-div h2{
+    text-align: center;
+    padding: 0%;
+}
+
+.about-right h4{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    margin-top: '0px'
+}
+
+.about-right h7{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    /* padding-bottom: 2em; */
+    /* padding-top: 2em; */
 }
