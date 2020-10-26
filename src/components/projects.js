@@ -22,7 +22,9 @@ class Projects extends Component {
             </ul>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a href="https://github.com/dhanraj-vedanth/IaaS_VPC_CDN" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
 
@@ -36,7 +38,9 @@ class Projects extends Component {
             </ul>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a href="https://github.com/dhanraj-vedanth/IaaS_VPC_CDN" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
 
@@ -48,15 +52,12 @@ class Projects extends Component {
               <li>Used InfluxDB and Grafana to visualize and alert. Implemented a custom self-healing feature for containers (Kubernetes inspired) </li>
             </ul>
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
+            <a href="https://github.com/dhanraj-vedanth/IaaS_VPC_CDN" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+            </a>
           </Card>
 
         </div>
-
-        
-
       )
     } else if(this.state.activeTab === 1) {
       return (
@@ -70,7 +71,9 @@ class Projects extends Component {
                     </ul>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                <a href="https://github.com/dhanraj-vedanth/point_to_multipoint_with_ARQ" rel="noopener noreferrer" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
                 </CardActions>
                 </Card>
 
@@ -82,7 +85,9 @@ class Projects extends Component {
                     </ul>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                <a href="https://github.com/dhanraj-vedanth/P2P_DI" rel="noopener noreferrer" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
                 </CardActions>
                 </Card>
           </div>
@@ -99,13 +104,16 @@ class Projects extends Component {
                     </ul>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                <a href="https://github.com/dhanraj-vedanth/Athena" rel="noopener noreferrer" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
                 </CardActions>
             </Card>
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                   <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg) center / cover'}} > Portfolio [React] </CardTitle>
                   <CardText>
+                      A kickass React based portfolio.
                       You're viewing it right now!
                       <br></br>
                       <br></br>
@@ -115,19 +123,23 @@ class Projects extends Component {
                       <br></br>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                  <a href="https://github.com/dhanraj-vedanth/react_portfolio" rel="noopener noreferrer" target="_blank">
+                    <Button colored>GitHub</Button>
+                  </a>
                 </CardActions>
             </Card>
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                  <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://imagenes.milenio.com/nZUqbVktl1NJQz6tP1Yn9TBkAt8=/958x596/https://www.milenio.com/uploads/media/2018/10/02/que-servicio-te-conviene-mas-2_0_0_1200_747.jpg) center / cover'}} > Spotify and Youtube Automation </CardTitle>
+                  <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.adslzone.net/app/uploads/2019/01/spotify-vs-youtube-music.jpg) center / cover'}} > Spotify and Youtube Automation </CardTitle>
                   <CardText>
                       <ul>
                           <li> Built a CLI service to add songs from a selected Youtube playlist to Spotify liked songs list using Youtube Data API and Spotify Web API </li>
                     </ul>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                  <a href="https://github.com/dhanraj-vedanth/spotify_python_automation" rel="noopener noreferrer" target="_blank">
+                    <Button colored>GitHub</Button>
+                  </a>
                 </CardActions>
             </Card>
         </div>
@@ -145,7 +157,9 @@ class Projects extends Component {
                     </ul>
                 </CardText>
                 <CardActions border>
-                <Button colored>GitHub</Button>
+                  <a href="https://github.com/dhanraj-vedanth/Xinu" rel="noopener noreferrer" target="_blank">
+                      <Button colored>GitHub</Button>
+                  </a>
                 </CardActions>
             </Card>
         </div>
