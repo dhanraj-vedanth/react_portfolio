@@ -8,7 +8,7 @@ class Landing extends Component{
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
-                    <Cell col={12}>
+                    {/* <Cell col={12}> */}
                         <img 
                         src={bb1}
                         alt="avatar"
@@ -33,7 +33,7 @@ class Landing extends Component{
                                 </a>
                             </div>
                         </div>
-                    </Cell>
+                    {/* </Cell> */}
                 </Grid>
             </div>
         )

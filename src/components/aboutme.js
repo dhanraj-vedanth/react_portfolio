@@ -6,10 +6,10 @@ class About extends Component{
     render(){
         return(
             <div className="about-me-div">
-                <h2 style={{textAlign: 'center'}}> Hello again! </h2>
                 <Grid>
                     <Cell col= {5}>
                         <div style={{textAlign: 'center'}}>
+                            <h2 style={{textAlign: 'center'}}> Hello again! </h2>
                             <img 
                             src={about}
                             alt="About"
@@ -31,6 +31,9 @@ class About extends Component{
                                 <li>I have hands on experience with multiple projects in industry and academia that involve building Network automation workflows, VPCs, CDNs, Web Development, Operating Systems</li>
                                 <li>I have commendable interpersonal skills and have collaborated with various engineers and clients for problem solving</li>
                             </ul>
+                        <hr></hr>
+                        <h4> What else do I do and love? </h4>
+                            <h7>Professional Table Tennis player, novice swimmer and chess player. Basketball aficionado (Go Lakers!) and I have a wide spectrum of music I love!</h7>
                         <hr></hr>
                     </div> 
                     </Cell>

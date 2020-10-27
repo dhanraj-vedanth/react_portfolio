@@ -49,7 +49,7 @@ class Resume extends Component{
                         <h2> Education </h2>
                         <Education 
                         start_year={"August 2019"}
-                        end_year={"May 2020"}
+                        end_year={"May 2021"}
                         school_name= "North Carolina State University"
                         coursework= " Coursework: Software Engineering, Object-Oriented Development, and Design Patterns, Operating Systems, Algorithms, Linux Networking, Switched Network Management, Internet Protocols"
                         degree= "M.S in Computer Networking"
@@ -58,7 +58,7 @@ class Resume extends Component{
                         start_year={"August 2014"}
                         end_year={"May 2018"}
                         school_name= "Anna University"
-                        degree= "B.E in Elections and Communication Engineering"
+                        degree= "B.E in Electronics and Communication Engineering"
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
                         <h2> Experience </h2>
@@ -83,7 +83,7 @@ class Resume extends Component{
                         jd2= "Used Versa’s APIs with Python resulting in 40% increase in on-boarding speed. Developed two core Python modules for the Ansible stack : Parse and Compute"
                         />
 
-                        <h8><a href= "https://github.com/dhanraj-vedanth/react_portfolio/blob/master/dhanraj_raghunathan.pdf"> <strong>Check out the complete resume here </strong>  </a></h8>
+                        <h8><a href= "https://github.com/dhanraj-vedanth/react_portfolio/blob/master/dhanraj_raghunathan.pdf" rel="noopener noreferrer" target="_blank"> <strong>Check out the complete resume here </strong>  </a></h8>
                     </Cell>
                 </Grid>
             </div>
